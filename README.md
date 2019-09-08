@@ -31,17 +31,21 @@ https://git-scm.com/download
 - [x] Você precisa recuperar algo deletado.
 
 - `git init` // inicia a linha do tempo
-- `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
+- `git add` // adiciona ou atualiza mudanças para irem para a linha do tempo
+- `git add .` // adiciona ou atualiza mudanças para irem para a linha do tempo em diferentes arquivos.
 - `git commit` // adiciona um ponto na linha do tempo
+- `git commit -am ""` // não necessita do git add
 - `git log` // visualiza os pontos na linha do tempo / commit
 - `git status` // informa o estado das alterações do nosso projeto
 - `git show` // apresenta determinado ponto na história
 - `git branch` // gerenciar novas linhas do tempo
+- `git branch checkout master` // muda para a branch master
 - `git branch` -d // deleta uma branch
 - `git checkout` // manipula as linhas do tempo
+- `git checkout "ponto da historia" --"nome do arquivo"` // volta na linha do tempo
 - `git merge` // unir linhas do tempo
 - `git remote -v` // ver os repositorios remotos
 - `git push` // envia alterações locais para o repositório remoto
 - `git config credential.helper store` // evita solicitação de login e senha sempre que for salvar alguma coisa na nuvem
 - `git clone` // clonar um projeto / repositório
-- `git pull` // puxa do repositório remoto 
+- `git pull` // puxa do repositório remoto da nuvem para o repositorio local 
